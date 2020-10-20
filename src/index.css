@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
-    word-wrap: break-word;
+body{
+    background:#FFFDD0;
 }
 
-.mainDiv{
-    display: flex;
+div{
+    padding:0;
+    box-sizing: border-box;
+    background: orange;
+    display:flex;
     justify-content:center;
-    background: rgb(225, 172, 74);
-    margin: 300px 350px;
-    border-radius: 24px;
-    padding: 10px;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 60px 100px;
 }
 
-h1{
+li{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size:10vh;
+    margin: 10px;
+    color: #dc2020;
+}
+
+span{
+    color: rgb(31, 41, 80);
 }

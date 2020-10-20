@@ -1,8 +1,10 @@
 import React from 'react';
-import Heading from './components/heading';
+import Display from './components/display';
 
-function App() {
-    return <Heading />;
+export default function App() {
+    return (
+        <div>
+            <Display />
+        </div>
+    );
 }
-
-export default App;
